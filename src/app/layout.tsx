@@ -13,6 +13,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body>
+        <h1>Teste</h1>
         {children}
       </body>
     </html>
