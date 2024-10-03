@@ -153,4 +153,59 @@
             transform 
             hover:scale-105;
     }
+
+    .page-container {
+        @apply 
+            flex 
+            flex-col 
+            items-center 
+            justify-center 
+            min-h-screen 
+            bg-gradient-to-b 
+            from-gray-900 
+            to-gray-700 
+            text-white 
+            px-6 
+            py-12;
+    }
+
+    .page-title {
+        @apply 
+            text-4xl 
+            font-extrabold 
+            mb-8 
+            text-center 
+            text-gray-200;
+    }
+
+    .image-container {
+        @apply 
+            rounded-lg 
+            shadow-xl 
+            transition-transform 
+            transform 
+            hover:scale-105 
+            hover:shadow-2xl 
+            mb-8 
+            mx-auto;
+    }
+
+    .description-text {
+        @apply 
+            text-lg 
+            leading-relaxed 
+            text-gray-300 
+            max-w-3xl 
+            text-center 
+            mx-auto;
+    }
+
+    .loading-message {
+        @apply 
+            text-2xl 
+            font-bold 
+            text-gray-400 
+            text-center 
+            mt-12;
+    }
 }
