@@ -119,4 +119,38 @@
             transition-all 
             hover:text-gray-400;
     }
+
+    .notfound-container {
+        @apply 
+            flex 
+            flex-col 
+            justify-center 
+            items-center 
+            min-h-screen 
+            bg-gray-900 
+            text-white 
+            p-8;
+    }
+
+    .notfound-title {
+        @apply 
+            text-5xl 
+            font-bold 
+            mb-4;
+    }
+
+    .notfound-subtitle {
+        @apply 
+            text-xl 
+            mb-6;
+    }
+
+    .notfound-image {
+        @apply 
+            rounded-lg 
+            shadow-lg 
+            transition-transform 
+            transform 
+            hover:scale-105;
+    }
 }
