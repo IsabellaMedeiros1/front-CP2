@@ -99,7 +99,7 @@
             text-4xl 
             font-extrabold 
             mb-4 
-            text-left;
+            text-center;
     }
 
     .home-text {
@@ -107,8 +107,7 @@
             text-lg 
             mb-5 
             leading-relaxed 
-            text-left 
-            text-gray-300;
+            text-center; 
     }
 
     .home-list {
@@ -163,8 +162,8 @@
         @apply 
             flex 
             flex-col 
-            items-start 
-            justify-start 
+            items-center 
+            justify-center 
             min-h-screen 
             bg-gradient-to-b 
             from-gray-900 
@@ -178,8 +177,9 @@
         @apply 
             text-4xl 
             font-extrabold 
-            mb-6 
-            text-left;
+            mb-8 
+            text-center 
+            text-gray-200;
     }
 
     .image-container {
@@ -200,8 +200,9 @@
             leading-relaxed 
             text-gray-300 
             max-w-3xl 
-            text-left 
-            mb-6; 
+            text-center 
+            mx-auto 
+            mb-6;
     }
 
     .loading-message {
