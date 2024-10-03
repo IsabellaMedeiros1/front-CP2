@@ -1,9 +1,11 @@
-import React from 'react'
+import "@/styles/globals.css"
 
-export default function Footer() {
+export default  function Footer(){
+  
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <footer className="rodape">
+      <p>&copy; 2024 NASA Theories Explorer. Todos os direitos reservados.</p>
+    </footer>
+  );
+};
+
