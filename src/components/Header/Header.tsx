@@ -1,9 +1,11 @@
-import React from 'react'
+import Menu from '../Menu/Menu';
+import "@/styles/globals.css";
 
 export default function Header() {
-  return (
-    <div>
-      
-    </div>
-  )
+    return (
+        <header className="cabecalho">
+            <h1 className="text-2xl">NASA</h1>
+            <Menu />
+        </header>
+    );
 }
