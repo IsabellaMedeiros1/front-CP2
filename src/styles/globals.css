@@ -154,7 +154,7 @@
             hover:scale-105;
     }
 
-    .page-container {
+     .page-container {
         @apply 
             flex 
             flex-col 
