@@ -59,16 +59,20 @@
             bg-gray-800 
             text-gray-300 
             text-center 
-            py-6 
+            py-10 
             shadow-inner 
-            border-t border-gray-700;
+            border-t border-gray-700 
+            mt-10;
     }
 
     .rodape p {
         @apply 
-            text-sm 
-            md:text-base 
-            tracking-wide;
+            text-base 
+            md:text-lg 
+            tracking-wide 
+            font-light 
+            leading-relaxed 
+            mb-2; 
     }
 
     .rodape a {
@@ -82,7 +86,7 @@
         @apply 
             bg-gray-800 
             text-gray-200 
-            p-8 
+            p-10 
             rounded-xl 
             shadow-2xl 
             max-w-3xl 
@@ -94,16 +98,17 @@
         @apply 
             text-4xl 
             font-extrabold 
-            mb-6 
-            text-center;
+            mb-4 
+            text-left;
     }
 
     .home-text {
         @apply 
             text-lg 
             mb-5 
-            leading-relaxed;
-        line-height: 1.6;
+            leading-relaxed 
+            text-left 
+            text-gray-300;
     }
 
     .home-list {
@@ -115,7 +120,7 @@
 
     .home-list li {
         @apply 
-            mb-3 
+            mb-2 
             transition-all 
             hover:text-gray-400;
     }
@@ -154,12 +159,12 @@
             hover:scale-105;
     }
 
-     .page-container {
+    .page-container {
         @apply 
             flex 
             flex-col 
-            items-center 
-            justify-center 
+            items-start 
+            justify-start 
             min-h-screen 
             bg-gradient-to-b 
             from-gray-900 
@@ -173,9 +178,8 @@
         @apply 
             text-4xl 
             font-extrabold 
-            mb-8 
-            text-center 
-            text-gray-200;
+            mb-6 
+            text-left;
     }
 
     .image-container {
@@ -196,8 +200,8 @@
             leading-relaxed 
             text-gray-300 
             max-w-3xl 
-            text-center 
-            mx-auto;
+            text-left 
+            mb-6; 
     }
 
     .loading-message {
