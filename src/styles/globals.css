@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .cabecalho {
+        @apply 
+            bg-gray-900 
+            text-white 
+            flex 
+            justify-between 
+            items-center 
+            h-20 
+            px-10 
+            font-bold 
+            shadow-lg 
+            rounded-b-lg 
+            transition duration-300 ease-in-out 
+            border-b border-gray-800;
+    }
+
+    .cabecalho h1 {
+        @apply text-3xl font-extrabold tracking-tight;
+    }
+}
